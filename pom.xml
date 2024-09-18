@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.github.artanpg</groupId>
+        <artifactId>artan-framework-parent</artifactId>
+        <version>0.0.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+
+    <artifactId>artan-framework</artifactId>
+    <version>0.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>artan-framework</name>
+    <description>Artan Programming Group Framework</description>
+    <url>https://github.com/artan-pg/artan-framework</url>
+
+    <developers>
+        <developer>
+            <name>Mohammad Yazdian</name>
+            <email>m.yazdian70@outlook.com</email>
+            <organization>Artan Programming Group</organization>
+            <organizationUrl>https://github.com/artan-pg/parent</organizationUrl>
+            <roles>
+                <role>Project lead</role>
+                <role>Programmer</role>
+            </roles>
+            <timezone>+3:30</timezone>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/artan-pg/artan-framework</url>
+        <connection>scm:git:https://github.com:artan-pg/artan-framework.git</connection>
+        <developerConnection>scm:git:https://github.com/artan-pg/artan-framework.git</developerConnection>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
