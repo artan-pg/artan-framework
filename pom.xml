@@ -48,4 +48,8 @@
             </plugin>
         </plugins>
     </build>
+
+    <modules>
+        <module>artan-core</module>
+    </modules>
 </project>
