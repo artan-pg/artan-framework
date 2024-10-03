@@ -58,5 +58,6 @@
 
     <modules>
         <module>artan-core</module>
+        <module>artan-jdbc</module>
     </modules>
 </project>
