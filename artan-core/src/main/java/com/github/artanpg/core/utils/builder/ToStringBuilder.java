@@ -432,6 +432,17 @@ public class ToStringBuilder implements Builder<String> {
     }
 
     /**
+     * Adds the result of super.toString() to this builder.
+     *
+     * @param toString the result of calling {@code super.toString()}
+     * @return {@code this} instance.
+     */
+    public ToStringBuilder appendSuper(String toString) {
+        appendToString(toString);
+        return this;
+    }
+
+    /**
      * Returns the String that was build as an object representation.
      *
      * @return the String {@code toString}
